@@ -1,6 +1,6 @@
 CREATE TABLE overwatch_db (
-primary_key TEXT PRIMARY KEY,
-start_time TEXT,
+primary_key INT PRIMARY KEY,
+start_time DATE,
 match_id FLOAT,
 map_name TEXT,
 player TEXT,
@@ -43,3 +43,4 @@ ultimates_used FLOAT,
 weapon_accuracy FLOAT
 );
 
+Select * from overwatch_db
